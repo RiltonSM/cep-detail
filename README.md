@@ -37,13 +37,13 @@ O retorno da função getCEpDetail será um objeto com a seguinte estrutura:
 retorno = [{
     bairro: "nome_do_bairro",
     cep: "número_do_cep",
-    complemento: "complemento_caso_houver"
-    gia: "gia_caso_houver"
-    ibge: "número_ibge"
-    localidade: "nome_da_cidade"
-    logradouro: "nome_do_logradouro"
-    uf: "sigla_da_uf"
-    unidade: "número_da_unidade_caso_houver"
+    complemento: "complemento_caso_houver",
+    gia: "gia_caso_houver",
+    ibge: "número_ibge",
+    localidade: "nome_da_cidade",
+    logradouro: "nome_do_logradouro",
+    uf: "sigla_da_uf",
+    unidade: "número_da_unidade_caso_houver",
 }]
 ```
 A função getCepNumber retornará um array de objetos, cada objeto terá a seguinte estrutura:
@@ -51,23 +51,23 @@ A função getCepNumber retornará um array de objetos, cada objeto terá a segu
 retorno = [{
     bairro: "nome_do_bairro",
     cep: "número_do_cep",
-    complemento: "complemento_caso_houver"
-    gia: "gia_caso_houver"
-    ibge: "número_ibge"
-    localidade: "nome_da_cidade"
-    logradouro: "nome_do_logradouro"
-    uf: "sigla_da_uf"
-    unidade: "número_da_unidade_caso_houver"
+    complemento: "complemento_caso_houver",
+    gia: "gia_caso_houver",
+    ibge: "número_ibge",
+    localidade: "nome_da_cidade",
+    logradouro: "nome_do_logradouro",
+    uf: "sigla_da_uf",
+    unidade: "número_da_unidade_caso_houver",
 },{
     bairro: "nome_do_bairro",
     cep: "número_do_cep",
-    complemento: "complemento_caso_houver"
-    gia: "gia_caso_houver"
-    ibge: "número_ibge"
-    localidade: "nome_da_cidade"
-    logradouro: "nome_do_logradouro"
-    uf: "sigla_da_uf"
-    unidade: "número_da_unidade_caso_houver"
+    complemento: "complemento_caso_houver",
+    gia: "gia_caso_houver",
+    ibge: "número_ibge",
+    localidade: "nome_da_cidade",
+    logradouro: "nome_do_logradouro",
+    uf: "sigla_da_uf",
+    unidade: "número_da_unidade_caso_houver",
 },{
     ...
 }]
