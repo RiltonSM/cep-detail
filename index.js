@@ -1,14 +1,15 @@
 const axios = require('axios');
 
 async function getCepDetail(cep){
+    const info = []
     try{
         const {data} = await axios.get(`https://viacep.com.br/ws/${cep}/json/`);
         console.log(data);
-        return data;
+        info.push(data);
+        return info;
     } catch (err){
         console.log(err)
     }
-    
 }
 
 async function getCepNumber(uf, city, street){
